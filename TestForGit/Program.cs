@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace TestForGit
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+
+            Console.WriteLine("按任意键结束...");
+            Console.ReadKey();
         }
     }
 }
